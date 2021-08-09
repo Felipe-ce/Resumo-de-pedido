@@ -30,7 +30,7 @@ img{
   display: block;
   max-width: 100%;
 }
-.teste{
+.container{
   font-family: var(--font);
   background: url('images/pattern-background-desktop.svg') no-repeat;
   background-size: contain;
@@ -112,4 +112,18 @@ img{
 .info a{
   font-weight: bold;
   color: var(--desaturated-blue);
+}
+
+/* 
+  Versão Mobile
+*/
+@media (max-width: 380px){
+  .container{
+    background: var(--very-pale-blue);
+    padding: 1rem;
+  }
+  .btn{
+    width: 250px;
+  }
+
 }
